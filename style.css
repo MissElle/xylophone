@@ -11,6 +11,8 @@ header{
   text-align: center;
 }
 
+header h1{line-height: .75;}
+
 footer {
   position: relative;
   bottom: 0rem;
@@ -34,10 +36,12 @@ footer a:visited {
 }
 
 ol {
+	position: relative;
+	left: -1rem;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	width: 95%;
+	width: 100%;
 	height: 80%;
 }
 
@@ -83,49 +87,6 @@ ul>li {
 
 ul>li:first-child{margin-top: 60%;}
 ul>li:last-child{margin-bottom: 60%;}
-
-/*
-
-li.C {
-  margin-top: 15.6rem;
-  margin-left: -1.6rem;
-}
-
-li.D {
-  margin-top: 14rem;
-  margin-left: -1.6rem;
-}
-
-li.E {
-  margin-top: 12.5rem;
-  margin-left: -1.55rem;
-}
-
-li.F {
-  margin-top: 11rem;
-  margin-left: -1.55rem;
-}
-
-li.G {
-  margin-top: 9.7rem;
-  margin-left: -1.55rem;
-}
-
-li.A {
-  margin-top: 8.4rem;
-  margin-left: -1.55rem;
-}
-
-li.B {
-  margin-top: 7.2rem;
-  margin-left: -1.55rem;
-}
-
-li.Do {
-  margin-top: 6rem;
-  margin-left: -1.55rem;
-}
-*/
 
 #red {
   height:20rem;

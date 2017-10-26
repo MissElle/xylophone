@@ -174,3 +174,7 @@ li.Do {
   border-right-style: solid;
   z-index: 1;
 }
+
+#hidden {
+	display: none;
+}

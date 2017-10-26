@@ -128,14 +128,19 @@ ul>li:last-child{margin-bottom: 60%;}
   background-color: #ff3399;
 }
 
+#center {
+	margin-right: auto;
+  margin-left: auto;
+	width: 44rem;
+}
+
 #wood {
+	transition: all .3s linear;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items:center;
 	justify-content: center;
 	align-content: center;
-	margin-right: auto;
-  margin-left: auto;
   width: 44rem;
   height: 26rem;
   border-radius: 15%;
@@ -157,7 +162,9 @@ ul>li:last-child{margin-bottom: 60%;}
 }
 
 @media screen and (max-width: 47.625em){
-	#wood {transform: rotate(90deg);}
+	#wood {transform: rotate(90deg) scale(.8);}
+	#center {width: 100%; margin: 0 auto;}
+	footer {display: none;}
 }
 
 #hidden {
